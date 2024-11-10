@@ -8,36 +8,36 @@ const Soon = () => {
 
 
 <div className="gearbox absolute " >
-  <div class="overlay"></div>
-    <div class="gear one">
-      <div class="gear-inner">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+  <div className="overlay"></div>
+    <div className="gear one">
+      <div className="gear-inner">
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
       </div>
     </div>
-    <div class="gear two">
-      <div class="gear-inner">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+    <div className="gear two">
+      <div className="gear-inner">
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
       </div>
     </div>
-    <div class="gear three">
-      <div class="gear-inner">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+    <div className="gear three">
+      <div className="gear-inner">
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
       </div>
     </div>
-    <div class="gear four large">
-      <div class="gear-inner">
+    <div className="gear four large">
+      <div className="gear-inner">
+        <div className="bar"></div>
         <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
       </div>
     </div>
   </div>
