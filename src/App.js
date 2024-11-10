@@ -6,8 +6,12 @@ import ToolboxProvider from "./store/ToolboxProvider";
 import Card from "./components/card/Card";
 
 
+const mobile=()=>{
+  return !(/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) && window.innerWidth>1100;
+}
+
 function App() {
-  if(!(/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent))){
+  if(mobile){
     return (
       
       <BoardProvider>
